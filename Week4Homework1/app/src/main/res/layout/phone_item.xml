@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_user_phoe"
+        android:layout_width="@dimen/image_phone"
+        android:layout_height="@dimen/image_phone"
+        android:src="@drawable/scree595"/>
+
+    <TextView
+        android:id="@+id/phone_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/mergin_left"/>
+
+    <ImageButton
+        android:id="@+id/call_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_call_black_24dp"
+        android:background="@android:color/transparent"
+        android:layout_marginRight="@dimen/right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
